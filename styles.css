@@ -1,0 +1,178 @@
+div:not(div:has(input:checked)) div:not(#title) {display:none;} 
+ div:not(div:has(input:checked)) input:not(#title_c0) + label, div:not(div:has(input:checked)) input:not(#title_c0) {display:none;}div:has(#title_c0:checked) div:not(#start) {display:none;}
+div:has(#title_c0:checked) input:not(#start_c0,#start_c1) + label, div:has(#title_c0:checked) input:not(#start_c0,#start_c1){display:none;}
+div:has(#start_c0:checked) div:not(#clock) {display:none;}
+div:has(#start_c0:checked) input:not(#clock_c0) + label, div:has(#start_c0:checked) input:not(#clock_c0){display:none;}
+div:has(#start_c1:checked) div:not(#window) {display:none;}
+div:has(#start_c1:checked) input:not(#window_c0) + label, div:has(#start_c1:checked) input:not(#window_c0){display:none;}
+div:has(#clock_c0:checked) div:not(#start) {display:none;}
+div:has(#clock_c0:checked) input:not(#start_c0,#start_c1) + label, div:has(#clock_c0:checked) input:not(#start_c0,#start_c1){display:none;}
+div:has(#window_c0:checked) div:not(#leave_start) {display:none;}
+div:has(#window_c0:checked) input:not(#leave_start_c0,#leave_start_c1) + label, div:has(#window_c0:checked) input:not(#leave_start_c0,#leave_start_c1){display:none;}
+div:has(#leave_start_c0:checked) div:not(#hallway_l) {display:none;}
+div:has(#leave_start_c0:checked) input:not(#hallway_l_c0,#hallway_l_c1) + label, div:has(#leave_start_c0:checked) input:not(#hallway_l_c0,#hallway_l_c1){display:none;}
+div:has(#leave_start_c1:checked) div:not(#hallway_r) {display:none;}
+div:has(#leave_start_c1:checked) input:not(#hallway_r_c0,#hallway_r_c1,#hallway_r_c2) + label, div:has(#leave_start_c1:checked) input:not(#hallway_r_c0,#hallway_r_c1,#hallway_r_c2){display:none;}
+div:has(#hallway_l_c0:checked) div:not(#try_open_hl_locked) {display:none;}
+div:has(#hallway_l_c0:checked) input:not(#try_open_hl_locked_c0) + label, div:has(#hallway_l_c0:checked) input:not(#try_open_hl_locked_c0){display:none;}
+div:has(#hallway_l_c1:checked) div:not(#leave_start) {display:none;}
+div:has(#hallway_l_c1:checked) input:not(#leave_start_c0,#leave_start_c1) + label, div:has(#hallway_l_c1:checked) input:not(#leave_start_c0,#leave_start_c1){display:none;}
+div:has(#hallway_r_c0:checked) div:not(#stairs_start) {display:none;}
+div:has(#hallway_r_c0:checked) input:not(#stairs_start_c0,#stairs_start_c1) + label, div:has(#hallway_r_c0:checked) input:not(#stairs_start_c0,#stairs_start_c1){display:none;}
+div:has(#hallway_r_c1:checked) div:not(#lift_start) {display:none;}
+div:has(#hallway_r_c1:checked) input:not(#lift_start_c0,#lift_start_c1,#lift_start_c2) + label, div:has(#hallway_r_c1:checked) input:not(#lift_start_c0,#lift_start_c1,#lift_start_c2){display:none;}
+div:has(#hallway_r_c2:checked) div:not(#sus_start) {display:none;}
+div:has(#hallway_r_c2:checked) input:not(#sus_start_c0,#sus_start_c1) + label, div:has(#hallway_r_c2:checked) input:not(#sus_start_c0,#sus_start_c1){display:none;}
+div:has(#try_open_hl_locked_c0:checked) div:not(#hallway_l) {display:none;}
+div:has(#try_open_hl_locked_c0:checked) input:not(#hallway_l_c0,#hallway_l_c1) + label, div:has(#try_open_hl_locked_c0:checked) input:not(#hallway_l_c0,#hallway_l_c1){display:none;}
+div:has(#stairs_start_c0:checked) div:not(#stairs_up) {display:none;}
+div:has(#stairs_start_c0:checked) input:not(#stairs_up_c0) + label, div:has(#stairs_start_c0:checked) input:not(#stairs_up_c0){display:none;}
+div:has(#stairs_start_c1:checked) div:not(#stairs_down) {display:none;}
+div:has(#stairs_start_c1:checked) input:not(#stairs_down_c0) + label, div:has(#stairs_start_c1:checked) input:not(#stairs_down_c0){display:none;}
+div:has(#lift_start_c0:checked) div:not(#lift_wait) {display:none;}
+div:has(#lift_start_c0:checked) input:not(#lift_wait_c0) + label, div:has(#lift_start_c0:checked) input:not(#lift_wait_c0){display:none;}
+div:has(#lift_start_c1:checked) div:not(#lift_try) {display:none;}
+div:has(#lift_start_c1:checked) input:not(#lift_try_c0) + label, div:has(#lift_start_c1:checked) input:not(#lift_try_c0){display:none;}
+div:has(#lift_start_c2:checked) div:not(#lift_exit) {display:none;}
+div:has(#lift_start_c2:checked) input:not(#lift_exit_c0) + label, div:has(#lift_start_c2:checked) input:not(#lift_exit_c0){display:none;}
+div:has(#sus_start_c0:checked) div:not(#s_hallway_l) {display:none;}
+div:has(#sus_start_c0:checked) input:not(#s_hallway_l_c0,#s_hallway_l_c1) + label, div:has(#sus_start_c0:checked) input:not(#s_hallway_l_c0,#s_hallway_l_c1){display:none;}
+div:has(#sus_start_c1:checked) div:not(#s_hallway_r) {display:none;}
+div:has(#sus_start_c1:checked) input:not(#s_hallway_r_c0,#s_hallway_r_c1) + label, div:has(#sus_start_c1:checked) input:not(#s_hallway_r_c0,#s_hallway_r_c1){display:none;}
+div:has(#stairs_up_c0:checked) div:not(#epic_enter) {display:none;}
+div:has(#stairs_up_c0:checked) input:not(#epic_enter_c0) + label, div:has(#stairs_up_c0:checked) input:not(#epic_enter_c0){display:none;}
+div:has(#stairs_down_c0:checked) div:not(#short_end) {display:none;}
+div:has(#stairs_down_c0:checked) input:not(#short_end_c0) + label, div:has(#stairs_down_c0:checked) input:not(#short_end_c0){display:none;}
+div:has(#lift_wait_c0:checked) div:not(#lab_enter) {display:none;}
+div:has(#lift_wait_c0:checked) input:not(#lab_enter_c0) + label, div:has(#lift_wait_c0:checked) input:not(#lab_enter_c0){display:none;}
+div:has(#lift_try_c0:checked) div:not(#street_enter) {display:none;}
+div:has(#lift_try_c0:checked) input:not(#street_enter_c0) + label, div:has(#lift_try_c0:checked) input:not(#street_enter_c0){display:none;}
+div:has(#lift_exit_c0:checked) div:not(#assassination_start) {display:none;}
+div:has(#lift_exit_c0:checked) input:not(#assassination_start_c0) + label, div:has(#lift_exit_c0:checked) input:not(#assassination_start_c0){display:none;}
+div:has(#s_hallway_l_c0:checked) div:not(#s_enter) {display:none;}
+div:has(#s_hallway_l_c0:checked) input:not(#s_enter_c0) + label, div:has(#s_hallway_l_c0:checked) input:not(#s_enter_c0){display:none;}
+div:has(#s_hallway_l_c1:checked) div:not(#sus_start_l) {display:none;}
+div:has(#s_hallway_l_c1:checked) input:not(#sus_start_l_c0,#sus_start_l_c1) + label, div:has(#s_hallway_l_c1:checked) input:not(#sus_start_l_c0,#sus_start_l_c1){display:none;}
+div:has(#s_hallway_r_c0:checked) div:not(#s_stairs) {display:none;}
+div:has(#s_hallway_r_c0:checked) input:not(#s_stairs_c0,#s_stairs_c1) + label, div:has(#s_hallway_r_c0:checked) input:not(#s_stairs_c0,#s_stairs_c1){display:none;}
+div:has(#s_hallway_r_c1:checked) div:not(#s_lift) {display:none;}
+div:has(#s_hallway_r_c1:checked) input:not(#s_lift_c0,#s_lift_c1) + label, div:has(#s_hallway_r_c1:checked) input:not(#s_lift_c0,#s_lift_c1){display:none;}
+div:has(#epic_enter_c0:checked) div:not(#epic_group) {display:none;}
+div:has(#epic_enter_c0:checked) input:not(#epic_group_c0) + label, div:has(#epic_enter_c0:checked) input:not(#epic_group_c0){display:none;}
+div:has(#short_end_c0:checked) div:not(#title) {display:none;}
+div:has(#short_end_c0:checked) input:not(#title_c0) + label, div:has(#short_end_c0:checked) input:not(#title_c0){display:none;}
+div:has(#lab_enter_c0:checked) div:not(#lab_look_around) {display:none;}
+div:has(#lab_enter_c0:checked) input:not(#lab_look_around_c0,#lab_look_around_c1) + label, div:has(#lab_enter_c0:checked) input:not(#lab_look_around_c0,#lab_look_around_c1){display:none;}
+div:has(#street_enter_c0:checked) div:not(#street_explore) {display:none;}
+div:has(#street_enter_c0:checked) input:not(#street_explore_c0) + label, div:has(#street_enter_c0:checked) input:not(#street_explore_c0){display:none;}
+div:has(#assassination_start_c0:checked) div:not(#assn_jump) {display:none;}
+div:has(#assassination_start_c0:checked) input:not(#assn_jump_c0) + label, div:has(#assassination_start_c0:checked) input:not(#assn_jump_c0){display:none;}
+div:has(#s_enter_c0:checked) div:not(#s_end) {display:none;}
+div:has(#s_enter_c0:checked) input:not(#s_end_c0) + label, div:has(#s_enter_c0:checked) input:not(#s_end_c0){display:none;}
+div:has(#sus_start_l_c0:checked) div:not(#s_hallway_l_2) {display:none;}
+div:has(#sus_start_l_c0:checked) input:not(#s_hallway_l_2_c0,#s_hallway_l_2_c1) + label, div:has(#sus_start_l_c0:checked) input:not(#s_hallway_l_2_c0,#s_hallway_l_2_c1){display:none;}
+div:has(#sus_start_l_c1:checked) div:not(#s_hallway_r_2) {display:none;}
+div:has(#sus_start_l_c1:checked) input:not(#s_hallway_r_2_c0,#s_hallway_r_2_c1) + label, div:has(#sus_start_l_c1:checked) input:not(#s_hallway_r_2_c0,#s_hallway_r_2_c1){display:none;}
+div:has(#s_stairs_c0:checked) div:not(#s_stairs_up) {display:none;}
+div:has(#s_stairs_c0:checked) input:not(#s_stairs_up_c0) + label, div:has(#s_stairs_c0:checked) input:not(#s_stairs_up_c0){display:none;}
+div:has(#s_stairs_c1:checked) div:not(#s_stairs_down) {display:none;}
+div:has(#s_stairs_c1:checked) input:not(#s_stairs_down_c0) + label, div:has(#s_stairs_c1:checked) input:not(#s_stairs_down_c0){display:none;}
+div:has(#s_lift_c0:checked) div:not(#s_lift_up) {display:none;}
+div:has(#s_lift_c0:checked) input:not(#s_lift_up_c0) + label, div:has(#s_lift_c0:checked) input:not(#s_lift_up_c0){display:none;}
+div:has(#s_lift_c1:checked) div:not(#s_lift_down) {display:none;}
+div:has(#s_lift_c1:checked) input:not(#s_lift_down_c0) + label, div:has(#s_lift_c1:checked) input:not(#s_lift_down_c0){display:none;}
+div:has(#epic_group_c0:checked) div:not(#epic_hi) {display:none;}
+div:has(#epic_group_c0:checked) input:not(#epic_hi_c0,#epic_hi_c1,#epic_hi_c2) + label, div:has(#epic_group_c0:checked) input:not(#epic_hi_c0,#epic_hi_c1,#epic_hi_c2){display:none;}
+div:has(#lab_look_around_c0:checked) div:not(#lab_read_note) {display:none;}
+div:has(#lab_look_around_c0:checked) input:not(#lab_read_note_c0) + label, div:has(#lab_look_around_c0:checked) input:not(#lab_read_note_c0){display:none;}
+div:has(#lab_look_around_c1:checked) div:not(#lab_door_open) {display:none;}
+div:has(#lab_look_around_c1:checked) input:not(#lab_door_open_c0) + label, div:has(#lab_look_around_c1:checked) input:not(#lab_door_open_c0){display:none;}
+div:has(#street_explore_c0:checked) div:not(#title) {display:none;}
+div:has(#street_explore_c0:checked) input:not(#title_c0) + label, div:has(#street_explore_c0:checked) input:not(#title_c0){display:none;}
+div:has(#assn_jump_c0:checked) div:not(#assn_run) {display:none;}
+div:has(#assn_jump_c0:checked) input:not(#assn_run_c0,#assn_run_c1) + label, div:has(#assn_jump_c0:checked) input:not(#assn_run_c0,#assn_run_c1){display:none;}
+div:has(#s_end_c0:checked) div:not(#title) {display:none;}
+div:has(#s_end_c0:checked) input:not(#title_c0) + label, div:has(#s_end_c0:checked) input:not(#title_c0){display:none;}
+div:has(#s_hallway_l_2_c0:checked) div:not(#s_enter) {display:none;}
+div:has(#s_hallway_l_2_c0:checked) input:not(#s_enter_c0) + label, div:has(#s_hallway_l_2_c0:checked) input:not(#s_enter_c0){display:none;}
+div:has(#s_hallway_l_2_c1:checked) div:not(#sus_start_l) {display:none;}
+div:has(#s_hallway_l_2_c1:checked) input:not(#sus_start_l_c0,#sus_start_l_c1) + label, div:has(#s_hallway_l_2_c1:checked) input:not(#sus_start_l_c0,#sus_start_l_c1){display:none;}
+div:has(#s_hallway_r_2_c0:checked) div:not(#s_stairs) {display:none;}
+div:has(#s_hallway_r_2_c0:checked) input:not(#s_stairs_c0,#s_stairs_c1) + label, div:has(#s_hallway_r_2_c0:checked) input:not(#s_stairs_c0,#s_stairs_c1){display:none;}
+div:has(#s_hallway_r_2_c1:checked) div:not(#s_lift) {display:none;}
+div:has(#s_hallway_r_2_c1:checked) input:not(#s_lift_c0,#s_lift_c1) + label, div:has(#s_hallway_r_2_c1:checked) input:not(#s_lift_c0,#s_lift_c1){display:none;}
+div:has(#s_stairs_up_c0:checked) div:not(#sus_start_repeat) {display:none;}
+div:has(#s_stairs_up_c0:checked) input:not(#sus_start_repeat_c0,#sus_start_repeat_c1) + label, div:has(#s_stairs_up_c0:checked) input:not(#sus_start_repeat_c0,#sus_start_repeat_c1){display:none;}
+div:has(#s_stairs_down_c0:checked) div:not(#sus_start_repeat) {display:none;}
+div:has(#s_stairs_down_c0:checked) input:not(#sus_start_repeat_c0,#sus_start_repeat_c1) + label, div:has(#s_stairs_down_c0:checked) input:not(#sus_start_repeat_c0,#sus_start_repeat_c1){display:none;}
+div:has(#s_lift_up_c0:checked) div:not(#sus_start_repeat) {display:none;}
+div:has(#s_lift_up_c0:checked) input:not(#sus_start_repeat_c0,#sus_start_repeat_c1) + label, div:has(#s_lift_up_c0:checked) input:not(#sus_start_repeat_c0,#sus_start_repeat_c1){display:none;}
+div:has(#s_lift_down_c0:checked) div:not(#sus_start_repeat) {display:none;}
+div:has(#s_lift_down_c0:checked) input:not(#sus_start_repeat_c0,#sus_start_repeat_c1) + label, div:has(#s_lift_down_c0:checked) input:not(#sus_start_repeat_c0,#sus_start_repeat_c1){display:none;}
+div:has(#epic_hi_c0:checked) div:not(#epic_almost) {display:none;}
+div:has(#epic_hi_c0:checked) input:not(#epic_almost_c0) + label, div:has(#epic_hi_c0:checked) input:not(#epic_almost_c0){display:none;}
+div:has(#epic_hi_c1:checked) div:not(#epic_almost) {display:none;}
+div:has(#epic_hi_c1:checked) input:not(#epic_almost_c0) + label, div:has(#epic_hi_c1:checked) input:not(#epic_almost_c0){display:none;}
+div:has(#epic_hi_c2:checked) div:not(#epic_almost) {display:none;}
+div:has(#epic_hi_c2:checked) input:not(#epic_almost_c0) + label, div:has(#epic_hi_c2:checked) input:not(#epic_almost_c0){display:none;}
+div:has(#lab_read_note_c0:checked) div:not(#lab_door_open) {display:none;}
+div:has(#lab_read_note_c0:checked) input:not(#lab_door_open_c0) + label, div:has(#lab_read_note_c0:checked) input:not(#lab_door_open_c0){display:none;}
+div:has(#lab_door_open_c0:checked) div:not(#lab_device) {display:none;}
+div:has(#lab_door_open_c0:checked) input:not(#lab_device_c0,#lab_device_c1,#lab_device_c2,#lab_device_c3,#lab_device_c4,#lab_device_c5,#lab_device_c6,#lab_device_c7,#lab_device_c8,#lab_device_c9,#lab_device_c10,#lab_device_c11,#lab_device_c12,#lab_device_c13,#lab_device_c14) + label, div:has(#lab_door_open_c0:checked) input:not(#lab_device_c0,#lab_device_c1,#lab_device_c2,#lab_device_c3,#lab_device_c4,#lab_device_c5,#lab_device_c6,#lab_device_c7,#lab_device_c8,#lab_device_c9,#lab_device_c10,#lab_device_c11,#lab_device_c12,#lab_device_c13,#lab_device_c14){display:none;}
+div:has(#assn_run_c0:checked) div:not(#assn_dodge) {display:none;}
+div:has(#assn_run_c0:checked) input:not(#assn_dodge_c0) + label, div:has(#assn_run_c0:checked) input:not(#assn_dodge_c0){display:none;}
+div:has(#assn_run_c1:checked) div:not(#assn_run_cont) {display:none;}
+div:has(#assn_run_c1:checked) input:not(#assn_run_cont_c0) + label, div:has(#assn_run_c1:checked) input:not(#assn_run_cont_c0){display:none;}
+div:has(#sus_start_repeat_c0:checked) div:not(#s_hallway_l) {display:none;}
+div:has(#sus_start_repeat_c0:checked) input:not(#s_hallway_l_c0,#s_hallway_l_c1) + label, div:has(#sus_start_repeat_c0:checked) input:not(#s_hallway_l_c0,#s_hallway_l_c1){display:none;}
+div:has(#sus_start_repeat_c1:checked) div:not(#s_hallway_r) {display:none;}
+div:has(#sus_start_repeat_c1:checked) input:not(#s_hallway_r_c0,#s_hallway_r_c1) + label, div:has(#sus_start_repeat_c1:checked) input:not(#s_hallway_r_c0,#s_hallway_r_c1){display:none;}
+div:has(#epic_almost_c0:checked) div:not(#epic_end) {display:none;}
+div:has(#epic_almost_c0:checked) input:not(#epic_end_c0) + label, div:has(#epic_almost_c0:checked) input:not(#epic_end_c0){display:none;}
+div:has(#lab_device_c0:checked) div:not(#lab_die) {display:none;}
+div:has(#lab_device_c0:checked) input:not(#lab_die_c0) + label, div:has(#lab_device_c0:checked) input:not(#lab_die_c0){display:none;}
+div:has(#lab_device_c1:checked) div:not(#lab_die) {display:none;}
+div:has(#lab_device_c1:checked) input:not(#lab_die_c0) + label, div:has(#lab_device_c1:checked) input:not(#lab_die_c0){display:none;}
+div:has(#lab_device_c2:checked) div:not(#lab_die) {display:none;}
+div:has(#lab_device_c2:checked) input:not(#lab_die_c0) + label, div:has(#lab_device_c2:checked) input:not(#lab_die_c0){display:none;}
+div:has(#lab_device_c3:checked) div:not(#lab_die) {display:none;}
+div:has(#lab_device_c3:checked) input:not(#lab_die_c0) + label, div:has(#lab_device_c3:checked) input:not(#lab_die_c0){display:none;}
+div:has(#lab_device_c4:checked) div:not(#lab_win) {display:none;}
+div:has(#lab_device_c4:checked) input:not(#lab_win_c0) + label, div:has(#lab_device_c4:checked) input:not(#lab_win_c0){display:none;}
+div:has(#lab_device_c5:checked) div:not(#lab_die) {display:none;}
+div:has(#lab_device_c5:checked) input:not(#lab_die_c0) + label, div:has(#lab_device_c5:checked) input:not(#lab_die_c0){display:none;}
+div:has(#lab_device_c6:checked) div:not(#lab_die) {display:none;}
+div:has(#lab_device_c6:checked) input:not(#lab_die_c0) + label, div:has(#lab_device_c6:checked) input:not(#lab_die_c0){display:none;}
+div:has(#lab_device_c7:checked) div:not(#lab_die) {display:none;}
+div:has(#lab_device_c7:checked) input:not(#lab_die_c0) + label, div:has(#lab_device_c7:checked) input:not(#lab_die_c0){display:none;}
+div:has(#lab_device_c8:checked) div:not(#lab_die) {display:none;}
+div:has(#lab_device_c8:checked) input:not(#lab_die_c0) + label, div:has(#lab_device_c8:checked) input:not(#lab_die_c0){display:none;}
+div:has(#lab_device_c9:checked) div:not(#lab_die) {display:none;}
+div:has(#lab_device_c9:checked) input:not(#lab_die_c0) + label, div:has(#lab_device_c9:checked) input:not(#lab_die_c0){display:none;}
+div:has(#lab_device_c10:checked) div:not(#lab_die) {display:none;}
+div:has(#lab_device_c10:checked) input:not(#lab_die_c0) + label, div:has(#lab_device_c10:checked) input:not(#lab_die_c0){display:none;}
+div:has(#lab_device_c11:checked) div:not(#lab_die) {display:none;}
+div:has(#lab_device_c11:checked) input:not(#lab_die_c0) + label, div:has(#lab_device_c11:checked) input:not(#lab_die_c0){display:none;}
+div:has(#lab_device_c12:checked) div:not(#lab_secret) {display:none;}
+div:has(#lab_device_c12:checked) input:not(#lab_secret_c0) + label, div:has(#lab_device_c12:checked) input:not(#lab_secret_c0){display:none;}
+div:has(#lab_device_c13:checked) div:not(#lab_die) {display:none;}
+div:has(#lab_device_c13:checked) input:not(#lab_die_c0) + label, div:has(#lab_device_c13:checked) input:not(#lab_die_c0){display:none;}
+div:has(#lab_device_c14:checked) div:not(#lab_die) {display:none;}
+div:has(#lab_device_c14:checked) input:not(#lab_die_c0) + label, div:has(#lab_device_c14:checked) input:not(#lab_die_c0){display:none;}
+div:has(#assn_dodge_c0:checked) div:not(#assn_dodge_cont) {display:none;}
+div:has(#assn_dodge_c0:checked) input:not(#assn_dodge_cont_c0) + label, div:has(#assn_dodge_c0:checked) input:not(#assn_dodge_cont_c0){display:none;}
+div:has(#assn_run_cont_c0:checked) div:not(#title) {display:none;}
+div:has(#assn_run_cont_c0:checked) input:not(#title_c0) + label, div:has(#assn_run_cont_c0:checked) input:not(#title_c0){display:none;}
+div:has(#epic_end_c0:checked) div:not(#title) {display:none;}
+div:has(#epic_end_c0:checked) input:not(#title_c0) + label, div:has(#epic_end_c0:checked) input:not(#title_c0){display:none;}
+div:has(#lab_die_c0:checked) div:not(#title) {display:none;}
+div:has(#lab_die_c0:checked) input:not(#title_c0) + label, div:has(#lab_die_c0:checked) input:not(#title_c0){display:none;}
+div:has(#lab_win_c0:checked) div:not(#title) {display:none;}
+div:has(#made_by_applehihi) {display: block;}
+div:has(#lab_win_c0:checked) input:not(#title_c0) + label, div:has(#lab_win_c0:checked) input:not(#title_c0){display:none;}
+div:has(#lab_secret_c0:checked) div:not(#lab_device) {display:none;}
+div:has(#lab_secret_c0:checked) input:not(#lab_device_c0,#lab_device_c1,#lab_device_c2,#lab_device_c3,#lab_device_c4,#lab_device_c5,#lab_device_c6,#lab_device_c7,#lab_device_c8,#lab_device_c9,#lab_device_c10,#lab_device_c11,#lab_device_c12,#lab_device_c13,#lab_device_c14) + label, div:has(#lab_secret_c0:checked) input:not(#lab_device_c0,#lab_device_c1,#lab_device_c2,#lab_device_c3,#lab_device_c4,#lab_device_c5,#lab_device_c6,#lab_device_c7,#lab_device_c8,#lab_device_c9,#lab_device_c10,#lab_device_c11,#lab_device_c12,#lab_device_c13,#lab_device_c14){display:none;}
+div:has(#assn_dodge_cont_c0:checked) div:not(#assn_jump_window) {display:none;}
+div:has(#assn_dodge_cont_c0:checked) input:not(#assn_jump_window_c0) + label, div:has(#assn_dodge_cont_c0:checked) input:not(#assn_jump_window_c0){display:none;}
+div:has(#assn_jump_window_c0:checked) div:not(#title) {display:none;}
+div:has(#assn_jump_window_c0:checked) input:not(#title_c0) + label, div:has(#assn_jump_window_c0:checked) input:not(#title_c0){display:none;}

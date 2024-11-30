@@ -1,0 +1,366 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+
+
+<form>
+<div>
+    <div id=title>CASCADE
+    </div>
+    <input type=radio name="a" id="title_c0"/>
+    <label for="title_c0"">…
+    </label>
+    <div id=start>Your head pounds as you get out of your bed.
+    </div>
+    <input type=radio name="a" id="start_c0"/>
+    <label for="start_c0"">Examine the clock by your bed.</label>
+    <input type=radio name="a" id="start_c1"/>
+    <label for="start_c1"">Look out the window.
+    </label>
+    <div id=clock>It's broken. The electronic display on the clock doesn't light up. You feel like you should have replaced this piece of junk long ago.
+    </div>
+    <input type=radio name="a" id="clock_c0"/>
+    <label for="clock_c0"">…
+    </label>
+    <div id=window>The skies as always are filled with smog. The streets seem particularly busy today.
+    </div>
+    <input type=radio name="a" id="window_c0"/>
+    <label for="window_c0"">Leave your room.
+    </label>
+    <div id=leave_start>You hear a soft buzzing sound. A warm, orange glow cakes the whole hallway. You feel like you should go right.
+    </div>
+    <input type=radio name="a" id="leave_start_c0"/>
+    <label for="leave_start_c0"">Go left.</label>
+    <input type=radio name="a" id="leave_start_c1"/>
+    <label for="leave_start_c1"">Go right.
+    </label>
+    <div id=hallway_l>There's a door at the end of the hallway. It's locked
+    </div>
+    <input type=radio name="a" id="hallway_l_c0"/>
+    <label for="hallway_l_c0"">Try to open the door anyway.</label>
+    <input type=radio name="a" id="hallway_l_c1"/>
+    <label for="hallway_l_c1"">Go right.
+    </label>
+    <div id=hallway_r>There are stairs and a lift.
+    </div>
+    <input type=radio name="a" id="hallway_r_c0"/>
+    <label for="hallway_r_c0"">Take the stairs.</label>
+    <input type=radio name="a" id="hallway_r_c1"/>
+    <label for="hallway_r_c1"">Call for the lift.</label>
+    <input type=radio name="a" id="hallway_r_c2"/>
+    <label for="hallway_r_c2"">Go back.
+    </label>
+    <div id=try_open_hl_locked>The door doesn't budge.
+    </div>
+    <input type=radio name="a" id="try_open_hl_locked_c0"/>
+    <label for="try_open_hl_locked_c0"">…
+    </label>
+    <div id=stairs_start>There are two flights of stairs. One going up, and one going down.
+    </div>
+    <input type=radio name="a" id="stairs_start_c0"/>
+    <label for="stairs_start_c0"">Go up.</label>
+    <input type=radio name="a" id="stairs_start_c1"/>
+    <label for="stairs_start_c1"">Go down.
+    </label>
+    <div id=lift_start>You enter the lift, and there's a floor already selected. 
+    </div>
+    <input type=radio name="a" id="lift_start_c0"/>
+    <label for="lift_start_c0"">Wait for the doors to close.</label>
+    <input type=radio name="a" id="lift_start_c1"/>
+    <label for="lift_start_c1"">Try pushing the other buttons.</label>
+    <input type=radio name="a" id="lift_start_c2"/>
+    <label for="lift_start_c2"">Exit the lift. 
+    </label>
+    <div id=sus_start>You hear a soft buzzing sound. A warm, orange glow cakes the whole hallway. 
+    </div>
+    <input type=radio name="a" id="sus_start_c0"/>
+    <label for="sus_start_c0"">Go left.</label>
+    <input type=radio name="a" id="sus_start_c1"/>
+    <label for="sus_start_c1"">Go right.
+    </label>
+    <div id=stairs_up>You reach the next floor. There's a slight itching at the back of your throat.
+    </div>
+    <input type=radio name="a" id="stairs_up_c0"/>
+    <label for="stairs_up_c0"">Exit stairwell.
+    </label>
+    <div id=stairs_down>You descend the flight of stairs. In your haste, you missed a step and went tumbling down.
+    </div>
+    <input type=radio name="a" id="stairs_down_c0"/>
+    <label for="stairs_down_c0"">Bleed out.
+    </label>
+    <div id=lift_wait>The doors close and the lift starts going down. The air starts to thicken, and strangely, it seems to be getting colder.
+    </div>
+    <input type=radio name="a" id="lift_wait_c0"/>
+    <label for="lift_wait_c0"">Wait.
+    </label>
+    <div id=lift_try>You push the button for the ground floor and it stays on. The initial button is no longer selected. That was weird.
+    </div>
+    <input type=radio name="a" id="lift_try_c0"/>
+    <label for="lift_try_c0"">…
+    </label>
+    <div id=lift_exit>You move to exit the lift, but it starts dropping.
+    </div>
+    <input type=radio name="a" id="lift_exit_c0"/>
+    <label for="lift_exit_c0"">Cling to the walls.
+    </label>
+    <div id=s_hallway_l>Someone walks past you. He left his door open.
+    </div>
+    <input type=radio name="a" id="s_hallway_l_c0"/>
+    <label for="s_hallway_l_c0"">Enter.</label>
+    <input type=radio name="a" id="s_hallway_l_c1"/>
+    <label for="s_hallway_l_c1"">Go right.
+    </label>
+    <div id=s_hallway_r>There are stairs and a lift.
+    </div>
+    <input type=radio name="a" id="s_hallway_r_c0"/>
+    <label for="s_hallway_r_c0"">Take the stairs.</label>
+    <input type=radio name="a" id="s_hallway_r_c1"/>
+    <label for="s_hallway_r_c1"">Call for the lift.
+    </label>
+    <div id=epic_enter>It's another floor of apartments. You see a group of people further down in what seems to be a common area.
+    </div>
+    <input type=radio name="a" id="epic_enter_c0"/>
+    <label for="epic_enter_c0"">Walk to them.
+    </label>
+    <div id=short_end>That's all folks! You've gotten the short ending! 
+    </div>
+    <input type=radio name="a" id="short_end_c0"/>
+    <label for="short_end_c0"">Again?
+    </label>
+    <div id=lab_enter>After what seemed to be an eternity, the doors open into a sterile looking room.
+    </div>
+    <input type=radio name="a" id="lab_enter_c0"/>
+    <label for="lab_enter_c0"">Look around.
+    </label>
+    <div id=street_enter>You arrive on the ground floor, and exit the lobby. It's a bustling street. You have a vague sense that there was something you had to do.
+    </div>
+    <input type=radio name="a" id="street_enter_c0"/>
+    <label for="street_enter_c0"">Explore the area.
+    </label>
+    <div id=assassination_start>There's the grinding of metal as the brakes start to engage. The door is still open, and it leads into another floor.
+    </div>
+    <input type=radio name="a" id="assassination_start_c0"/>
+    <label for="assassination_start_c0"">Jump out.
+    </label>
+    <div id=s_enter>The door shuts behind you.
+    </div>
+    <input type=radio name="a" id="s_enter_c0"/>
+    <label for="s_enter_c0"">…
+    </label>
+    <div id=sus_start_l>You hear a soft buzzing sound. A warm, orange glow cakes the whole hallway. 
+    </div>
+    <input type=radio name="a" id="sus_start_l_c0"/>
+    <label for="sus_start_l_c0"">Go left.</label>
+    <input type=radio name="a" id="sus_start_l_c1"/>
+    <label for="sus_start_l_c1"">Go right.
+    </label>
+    <div id=s_stairs>There are two flights of stairs. One going up, and one going down.
+    </div>
+    <input type=radio name="a" id="s_stairs_c0"/>
+    <label for="s_stairs_c0"">Climb up.</label>
+    <input type=radio name="a" id="s_stairs_c1"/>
+    <label for="s_stairs_c1"">Climb down.
+    </label>
+    <div id=s_lift>You enter the lift. There are only two buttons you can press.
+    </div>
+    <input type=radio name="a" id="s_lift_c0"/>
+    <label for="s_lift_c0"">Go up.</label>
+    <input type=radio name="a" id="s_lift_c1"/>
+    <label for="s_lift_c1"">Go down.
+    </label>
+    <div id=epic_group>You see them giving you weird looks as you approach. The itching starts to feel like someone's using a cheese grater on your throat.
+    </div>
+    <input type=radio name="a" id="epic_group_c0"/>
+    <label for="epic_group_c0"">Say hi.
+    </label>
+    <div id=lab_look_around>There are many odd looking devices and vials of colourful liquids on the benchtops. <br>
+    You see a handwritten note on one of the benches.
+    </div>
+    <input type=radio name="a" id="lab_look_around_c0"/>
+    <label for="lab_look_around_c0"">Read the note?</label>
+    <input type=radio name="a" id="lab_look_around_c1"/>
+    <label for="lab_look_around_c1"">Ignore the note.
+    </label>
+    <div id=street_explore>sorry i'm too lazy to continue this. maybe wait until i update or something. 
+    </div>
+    <input type=radio name="a" id="street_explore_c0"/>
+    <label for="street_explore_c0"">Again?
+    </label>
+    <div id=assn_jump>You jump out of the lift. What was that?! You certainly weren't expecting that to happen. There's the loud clattering of boots coming from elsewhere on the floor.
+    </div>
+    <input type=radio name="a" id="assn_jump_c0"/>
+    <label for="assn_jump_c0"">Run.
+    </label>
+    <div id=s_end>You've gotten the sus ending! That's all for this tech demo. 
+    </div>
+    <input type=radio name="a" id="s_end_c0"/>
+    <label for="s_end_c0"">Again?
+    </label>
+    <div id=s_hallway_l_2>Your neighbour's door is still open.
+    </div>
+    <input type=radio name="a" id="s_hallway_l_2_c0"/>
+    <label for="s_hallway_l_2_c0"">Enter.</label>
+    <input type=radio name="a" id="s_hallway_l_2_c1"/>
+    <label for="s_hallway_l_2_c1"">Go right.
+    </label>
+    <div id=s_hallway_r_2>There are stairs and a lift.
+    </div>
+    <input type=radio name="a" id="s_hallway_r_2_c0"/>
+    <label for="s_hallway_r_2_c0"">Take the stairs.</label>
+    <input type=radio name="a" id="s_hallway_r_2_c1"/>
+    <label for="s_hallway_r_2_c1"">Call for the lift.
+    </label>
+    <div id=s_stairs_up>You climb up the stairs.
+    </div>
+    <input type=radio name="a" id="s_stairs_up_c0"/>
+    <label for="s_stairs_up_c0"">Exit stairwell.
+    </label>
+    <div id=s_stairs_down>You climb down the stairs.
+    </div>
+    <input type=radio name="a" id="s_stairs_down_c0"/>
+    <label for="s_stairs_down_c0"">Exit stairwell.
+    </label>
+    <div id=s_lift_up>The lift goes up and you reach the floor.
+    </div>
+    <input type=radio name="a" id="s_lift_up_c0"/>
+    <label for="s_lift_up_c0"">Exit lift.
+    </label>
+    <div id=s_lift_down>The lift goes down and you reach the floor.
+    </div>
+    <input type=radio name="a" id="s_lift_down_c0"/>
+    <label for="s_lift_down_c0"">Exit lift.
+    </label>
+    <div id=epic_hi>You open your mouth to speak, but no words come out. It itches so much it <i>hurts</i>. You see some of their lips curling up in a wry smile.
+    </div>
+    <input type=radio name="a" id="epic_hi_c0"/>
+    <label for="epic_hi_c0"">Beg for help.</label>
+    <input type=radio name="a" id="epic_hi_c1"/>
+    <label for="epic_hi_c1"">Beg for mercy.</label>
+    <input type=radio name="a" id="epic_hi_c2"/>
+    <label for="epic_hi_c2"">Beg for relief.
+    </label>
+    <div id=lab_read_note>The note reads: <br>
+    "IMPORTANT! <br>
+    In the event of an emergency, press the <b>fifth</b> button to disable the device!"
+    </div>
+    <input type=radio name="a" id="lab_read_note_c0"/>
+    <label for="lab_read_note_c0"">…
+    </label>
+    <div id=lab_door_open>Klaxons start blaring and there are red warning lights, a door in the corner hisses and opens.
+    </div>
+    <input type=radio name="a" id="lab_door_open_c0"/>
+    <label for="lab_door_open_c0"">Enter through the door.
+    </label>
+    <div id=assn_run>You look behind you and you see a horde of armed people dressed in military gear chasing after you. Their barrels are pointed at you, and they start firing.
+    </div>
+    <input type=radio name="a" id="assn_run_c0"/>
+    <label for="assn_run_c0"">Dodge.</label>
+    <input type=radio name="a" id="assn_run_c1"/>
+    <label for="assn_run_c1"">Continue running.
+    </label>
+    <div id=sus_start_repeat>You hear a soft buzzing sound. A warm, orange glow cakes the whole hallway. This hallway seems familiar. 
+    </div>
+    <input type=radio name="a" id="sus_start_repeat_c0"/>
+    <label for="sus_start_repeat_c0"">Go left.</label>
+    <input type=radio name="a" id="sus_start_repeat_c1"/>
+    <label for="sus_start_repeat_c1"">Go right.
+    </label>
+    <div id=epic_almost>All roads lead to Rome. <br>
+    You struggle to breathe. <br>
+    "Sigma Ohio GYATT!!" You hear one of them scream. <br>
+    Your vision starts to blur.<br>
+    "Gotta fanum tax the rizz, no cap frfr !!"<br>
+    When were you lying on the floor? It's a cacophony of noise, and you can't make any of it out. <br>
+    As the world starts to go monochrome, you take one brief look at their faces. None of them are speaking anymore, but you hear it all the same. <br>
+    "From the screen to the ring to the pen to the king"
+    </div>
+    <input type=radio name="a" id="epic_almost_c0"/>
+    <label for="epic_almost_c0"">Go to sleep.
+    </label>
+    <div id=lab_device>There's a large device in the room, and attached to it is a control panel. There's a countdown on one of the screens, and it's ticking into the seconds. You rush forward to find a series of buttons on the panel.
+    </div>
+    <input type=radio name="a" id="lab_device_c0"/>
+    <label for="lab_device_c0"">Press this button?</label>
+    <input type=radio name="a" id="lab_device_c1"/>
+    <label for="lab_device_c1"">Press this button?</label>
+    <input type=radio name="a" id="lab_device_c2"/>
+    <label for="lab_device_c2"">Press this button?</label>
+    <input type=radio name="a" id="lab_device_c3"/>
+    <label for="lab_device_c3"">Press this button?</label>
+    <input type=radio name="a" id="lab_device_c4"/>
+    <label for="lab_device_c4"">Press this button?</label>
+    <input type=radio name="a" id="lab_device_c5"/>
+    <label for="lab_device_c5"">Press this button?</label>
+    <input type=radio name="a" id="lab_device_c6"/>
+    <label for="lab_device_c6"">Press this button?</label>
+    <input type=radio name="a" id="lab_device_c7"/>
+    <label for="lab_device_c7"">Press this button?</label>
+    <input type=radio name="a" id="lab_device_c8"/>
+    <label for="lab_device_c8"">Press this button?</label>
+    <input type=radio name="a" id="lab_device_c9"/>
+    <label for="lab_device_c9"">Press this button?</label>
+    <input type=radio name="a" id="lab_device_c10"/>
+    <label for="lab_device_c10"">Press this button?</label>
+    <input type=radio name="a" id="lab_device_c11"/>
+    <label for="lab_device_c11"">Press this button?</label>
+    <input type=radio name="a" id="lab_device_c12"/>
+    <label for="lab_device_c12"">Press this button?</label>
+    <input type=radio name="a" id="lab_device_c13"/>
+    <label for="lab_device_c13"">Press this button?</label>
+    <input type=radio name="a" id="lab_device_c14"/>
+    <label for="lab_device_c14"">Press this button?
+    </label>
+    <div id=assn_dodge>You dodge out of the way and slide right round the corner. You wonder when you got those reflexes, but now is no time to think about such frivolous matters. You're living on borrowed time.
+    </div>
+    <input type=radio name="a" id="assn_dodge_c0"/>
+    <label for="assn_dodge_c0"">Continue running.
+    </label>
+    <div id=assn_run_cont>A bullet hits you squarely in the back of your head. You die. <br><br>
+    <div>made by applehihi</div>
+    </div>
+    <input type=radio name="a" id="assn_run_cont_c0"/>
+    <label for="assn_run_cont_c0"">Again?
+    </label>
+    <div id=epic_end>You're awake again, but this time you're standing in the crowd. You try to move, but you're just a marionette now. The door to the hallway opens, and another person steps out. There's nothing you can do to save them. That stupid song continues to play in your head.
+    <img src="https://preview.redd.it/why-so-serious-v0-pu002os1w40e1.jpeg?width=1280&format=pjpg&auto=webp&s=890a215df1cad73d13a4f2ffc4d438eb01cd6dcd" width=1000, height=200>
+    <br><br><br>
+    You've gotten the epic ending! That's all for this tech demo. 
+    </div>
+    <input type=radio name="a" id="epic_end_c0"/>
+    <label for="epic_end_c0"">Again?
+    </label>
+    <div id=lab_die>The last thing you remember seeing is a brilliant flash of white. <br><br>
+    
+    </div>
+    <input type=radio name="a" id="lab_die_c0"/>
+    <label for="lab_die_c0"">Again?
+    </label>
+    <div id=lab_win>You press the fifth button, and the countdown stops. Everything calms down. You aren't sure what that device was supposed to do, but you're glad that whatever crisis it was, it was averted. <br><br>
+    
+    You got the lab ending! 
+    </div>
+    <input type=radio name="a" id="lab_win_c0"/>
+    <label for="lab_win_c0"">Again?
+    </label>
+    <div id=lab_secret>Wow, you found a secret! Hello! I'm not sure what else to put here. Send me a screenshot of this or something lol (only if you know me)
+    </div>
+    <input type=radio name="a" id="lab_secret_c0"/>
+    <label for="lab_secret_c0"">Go back to button room.
+    </label>
+    <div id=assn_dodge_cont>There's a window at the end of the corridor! You look back and see that they're still chasing you. How are they so fast even with all that weight? It's now or never.
+    </div>
+    <input type=radio name="a" id="assn_dodge_cont_c0"/>
+    <label for="assn_dodge_cont_c0"">Jump.
+    </label>
+    <div id=assn_jump_window>The window shatters into millions of tiny shards as you jump out of it. You look down and your heart sinks. Maybe a little too literally. <br><br>
+    This is it. <br><br>
+    Splat. <br><br>
+    You got the assassination ending! 
+    </div>
+    <input type=radio name="a" id="assn_jump_window_c0"/>
+    <label for="assn_jump_window_c0"">Again?</label>
+    <div>you should never see this</div>
+</div>
+
+</form>
